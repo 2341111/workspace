@@ -84,7 +84,7 @@
 
 1. 로컬: git 설치
 2. GITHUB: github repository 생성
-3. 로컬: git config --global user.email and user.name 설정
+3. 로컬: git config -global user.email and user.name 설정
 4. 로컬: git init
 5. 로컬: git add [파일]
 6. 로컬: git commit -m "init project"

@@ -4,6 +4,12 @@
 
 int main() {
     int num1 = 20, num2 = 10, num3 = 50;
+    int temp;
+
+    temp = num1;
+    num1 = num3;
+    num3 = num2;
+    num2 = temp;
 
     printf("%d > %d > %d", num1, num2, num3);
 }
